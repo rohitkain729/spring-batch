@@ -70,7 +70,7 @@ public class BatchConfig {
 		JdbcBatchItemWriter<Employee> writer = new JdbcBatchItemWriter<Employee>() {
 			{
 				setDataSource(ds);
-				setSql("INSERT INTO BATCH_EMPLOYEE VALUES (:empno,:empname,:empaddrs,:salary,:grossSalary,:netSalary)");
+				setSql("INSERT INTO BATCH_EMPLOYEE1 VALUES (:empno,:empname,:empaddrs,:salary,:grossSalary,:netSalary)");
 				setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<Employee>());
 			}
 		};

@@ -11,7 +11,7 @@ import lombok.Data;
 public class OExamResult {
 
 //	output exam result
-	
+
 	private Integer id;
 	private LocalDateTime dob;
 	private Float percentage;

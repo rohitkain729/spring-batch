@@ -8,7 +8,7 @@ import java.util.Date;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 
-import com.app.document.OExamResult;
+import com.app.entity.OExamResult;
 import com.app.model.IExamResult;
 
 @Component
